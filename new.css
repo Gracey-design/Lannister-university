@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter,' 'montserrat,' 'open sans';
+}
+
+.container{
+    width: 100%;
+
+}
+.navbar-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  #212374;
+    top: 0px;
+    left: 0px;
+    height: 31px;
+    width:100%;
+    position: fixed;
+}
+.left{
+    display: flex;
+    margin-left: 40px;
+}
+.drop-down{
+    font-family: 'open sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    margin-right: 5px;
+}
+.social-icons{
+    display: flex;
+    color: #fff;
+    width: 13px;
+    height: 14px;
+    margin-left: 30px;
+}
+.fa-brands{
+    margin: 5px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+.right ul li{
+    display: inline-block;
+    margin: 2px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: #fff;
+    border-right: 2px solid #fff;
+    padding: 5px;
+    
+}
+.fa-search{
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.navbar-second{
+    display: flex;
+    padding: 2px 4px ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.navbar-second img{
+    margin-top: 3px;
+    margin-left: -2px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: 'inter';
+   font-weight: 400;
+   font-style: normal;
+   line-height: 28px;
+}
+.active,.nav-links ul li:hover{
+    background: #212374;
+    border-radius: 2px;
+}
+
+.active,.nav-links ul li a:hover{
+    color: #fff;
+}
+.navbar-second ul ul{
+    display: none;
+}
+.navbar-second ul li:hover > ul{
+    display: block;
+    position: absolute;
+    background: #212374;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.navbar-second ul ul li a{
+    width: 100px;
+    float: none;
+    display: list-item;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+.navbar-second ul ul li a:hover{
+    color: #212374;
+    cursor: pointer;
+}
+.navbar-second ul ul ul li{
+    position: relative;
+}
+.fa-solid{
+    margin: 2px;
+    width: 9px;
+    height: 9px;
+}
+/*--------------- hero section---------------- */
+
+.hero{
+    background-image: url(./images/Rectangle\ 11.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 300px;
+}
+  .hero h2{
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 67px;
+    margin: 10px;
+    
+    
+}
+  .hero p{
+    color: #ffffff;
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+  padding-right: 80px;
+}
+/* --------------section 2------------- */
+.container{
+    width: 100%;
+    margin: 20px 20px;
+   padding: 50px 50px;
+   margin: 30px;
+  
+  
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+}
+.col-2 h1{
+    font-family: 'montserrat';
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 55px;
+    margin: 4px 20px;
+    margin-top: 0px;
+}
+span{
+    font-size: 40px;
+}
+.col-2 h2{
+    font-family: 'montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 15px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+.col-2 p{
+    font-family: 'montserrat';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 15px;
+    color: #000;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+h4{
+    font-size: 18px;
+    font-family: 'open sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    margin-left: 140px;
+    margin-bottom: 5px;
+  
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background:#212374;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width:350px;
+    height: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: #D9BF29;
+}
+.col-2 img{
+    width: 304px;
+    height: 167px;
+}
+
+.border-box{
+    background: #212374;
+    height: 542px;
+    width: 414px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+.border-box h2{
+    font-size: 28px;
+    color: #fff;
+    font-family: 'montserrat';
+    font-weight: 700;
+    line-height: 38px;
+    margin: 5px 2px;
+   
+}
+.border-box h3{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'open sans';
+    font-weight: 500;
+    line-height: 35px;
+}
+.border-box p{
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #fff;
+   margin: 0px 3px;
+}
+.border-box h4{
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #fff;
+    margin: 40px ;
+    margin-left: 2px;
+}
+.border-box h5{
+    text-align: right;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.border-box h6{
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    margin: 1px 5px;
+}
+
+
+
+
+
+
+/*-------------- section 3--------------- */
+
+
+/* .col-2 img{
+    width: 900px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+ */
+
+/* 
+.box{
+    background: #599659;
+    width: 338px;
+    height: 405px;
+    padding: 60px 44px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.box h2{
+     font-family: 'montserrat';
+     font-size: 28px;
+     font-weight: 700;
+     color: #fff;
+     font-style: normal;
+     line-height: 30px;
+}
+.box p{
+    font-family: 'open sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+    margin: 30px 3px
+} */

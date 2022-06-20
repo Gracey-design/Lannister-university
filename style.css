@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "inter," "montserrat," "open sans";
+}
+nav {
+  padding: 0 50px;
+  width: 100%;
+
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-one {
+  background-color: #212374;
+  color: #ffffff;
+  height: 31px;
+  width: 1512px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+}
+.left {
+  margin-left: 20px;
+}
+.right{
+    margin-right: 200px;
+}
+.right ul li{
+    list-style: none;
+    margin: 5px;
+}
+.right ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'open sans';
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 19px;
+    cursor: pointer;
+    border-right: 2px solid #fff;
+    padding: 5px;
+    height: 2px;
+}
+.social-icon .fa-brands{
+ color: #ffffff;
+ margin-left: 20px;
+ width: 13px;
+ height: 14px;
+ 
+}
+.drop-down{
+  font-family: 'open sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
+.fa-search{
+  width: 18px;
+  height: 18px;
+}
+
+.logo{
+  margin-left: -2px;
+  margin-top: 20px;
+}
+
+.navbar-second{
+  background: #ffffff;
+  height: 100%;
+  width: 100%;
+
+}
+.navbar-second ul li{
+  list-style: none;
+  margin:30px;
+ margin-right:5px;
+ margin-top: 20px;
+}
+.navbar-second ul li a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 23.231px;
+  font-family: 'inter';
+ font-weight: 400;
+ font-style: normal;
+ line-height: 28px;
+}
+.active,.nav-links ul li:hover{
+  background: #212374;
+  border-radius: 2px;
+}
+
+.active,.nav-links ul li a:hover{
+  color: #fff;
+}
+.navbar-second ul ul{
+  display: none;
+}
+.navbar-second ul li:hover > ul{
+  display: block;
+  position: absolute;
+  background: #212374;
+  margin-top: 5px;
+  margin-left: -15px;
+}
+.navbar-second ul ul li a{
+  width: 100px;
+  float: none;
+  display: list-item;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
+.navbar-second ul ul li a:hover{
+  color: #212374;
+  cursor: pointer;
+}
+.navbar-second ul ul ul li{
+  position: relative;
+}
+.fa-solid{
+  margin: 2px;
+  width: 9px;
+  height: 9px;
+}
+
+
+
+
+
+
+
+
+/*----------- hero section---------- */
+.hero{
+  background-image: url(./images/Rectangle\ 11.png);
+  width: 1512px;
+  height: 539px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-top: 300px;
+  top: 108px;
+  position: fixed;
+  /* z-index: -1; */
+
+}
+.hero h2{
+  color: #ffffff;
+  font-family: 'montserrat';
+  font-size: 55px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 67px;
+ margin: 10px;
+ text-shadow: 5px 4px 20px rgba(0, 0, 0, 0.25);
+  
+}
+.hero p{
+  color: #ffffff;
+  font-family: 'open sans';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  padding-right: 80px;
+}
