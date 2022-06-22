@@ -51,14 +51,13 @@
 }
 .right ul li{
     display: inline-block;
-    margin: 2px;
+    margin: 1px;
 }
 .right ul li a{
     text-decoration: none;
     color: #fff;
     border-right: 2px solid #fff;
-    padding: 5px;
-    
+    padding: 1px;
 }
 .fa-search{
     width: 18px;
@@ -172,6 +171,9 @@
     line-height: 21.79px;
   padding-right: 80px;
 }
+/* ---------end of hero section-------------- */
+
+
 /* --------------section 2------------- */
 .container{
     width: 100%;
@@ -256,6 +258,8 @@ h4{
     width: 414px;
     padding: 20px 50px;
     border-radius: 10px;
+    margin: 20px;
+    justify-content: flex-end;
 }
 .border-box h2{
     font-size: 28px;
@@ -305,46 +309,241 @@ h4{
     font-weight: 400;
     margin: 1px 5px;
 }
+/* ------------end of section 2------------ */
 
 
+/* -----------section 3------------------ */
 
-
-
-
-/*-------------- section 3--------------- */
-
-
-/* .col-2 img{
-    width: 900px;
-    height: 400px;
-    margin: 20px;
-    border-radius: 10px;
-    margin-left: 10px;
+.small-container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    margin: 10px;
 }
- */
 
-/* 
-.box{
+
+.left-col-2{
+   background-image: url(./images/Rectangle\ 15.png);
+   width: 880px;
+   height: 418px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+}
+.left-col-2 h2{
+    font-family: 'open sans';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-left: 10px;
+}
+
+.left-col-2 h3{
+    font-family: 'open sans';
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 37px;
+    padding-left: 10px;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #212374;
+    padding: 10px;
+    margin: 0px 10px;
+}
+ul li .fa-solid{
+    margin: 15px;
+}
+
+
+form input{
+ width: 339px;
+ height: 50px;
+ border: 2px solid #212374;
+ border-radius: 10px;
+ float: right;
+ padding-top: 20px;
+ 
+}
+
+.right-col-2{
     background: #599659;
     width: 338px;
-    height: 405px;
-    padding: 60px 44px;
+    height: 415px;
     border-radius: 10px;
-    margin-right: 10px;
+    padding: 60px 44px;
+    margin: 10px;
 }
-.box h2{
-     font-family: 'montserrat';
-     font-size: 28px;
-     font-weight: 700;
-     color: #fff;
-     font-style: normal;
-     line-height: 30px;
+.contents h1{
+    font-family: 'montserrat';
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 34px;
+
 }
-.box p{
+.contents p{
     font-family: 'open sans';
     font-size: 18px;
     font-weight: 400;
-    line-height: 25px;
     color: #fff;
-    margin: 30px 3px
-} */
+    line-height: 25px;
+    margin: 30px 3px;
+
+}
+.contents h3{
+    font-family: 'open sans';
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 44px;
+    margin: 20px 3px;
+}
+.contents  .fa-solid {
+    margin: 20px;
+}
+
+/* ----------section 4----------------- */
+.hero-p{
+    background-image: url(./images/Rectangle\ 25.png);
+    width: 1512px;
+    height: 538px;
+    /* background: rgba(196, 196, 196, 0.3); */
+}
+
+
+.info{
+    margin: 50px 20px;
+    padding: 150px 200px;
+}
+.hero-p h1{
+    font-family: 'montserrat';
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 7px 4px 15px rgba(0, 0, 0, 0.25);
+}
+.hero-p p{
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 22px;
+}
+
+/* ----------slider ------------- */
+.slider-container{
+    width: 900px;
+    height: 100vh;
+    margin: 50px auto 0;
+    justify-content: center;
+    text-align: center;
+}
+.slider-container h2{
+    font-family: 'montserrat';
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #181717;
+}
+.slider-container small{
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #090808;
+}
+
+/* ---------footer -----------*/
+
+
+
+.footer{
+    background: #12133C;
+    padding: 0px 0 5px;
+    width: 100%;
+}
+.footer .container{
+    max-width: 1530px;
+    height: 260px;
+    margin: 0 auto;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+
+    
+}
+.footer p{
+    font-size: 12px;
+    color: #fff;
+    padding: 0px 10px;
+}
+.footer h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1.2em;
+    text-align: center;
+}
+
+.footer-col-1,.footer-col-2, .footer-col-3,.footer-col-4,.footer-col-5,.footer-col-6{
+    min-height: 252px;
+    margin-bottom: 20px;
+}
+.footer ul li{
+    font-size: 12px;
+    color: #fff;
+   justify-content: center;
+    text-align: center;
+    font-family: 'open sans';
+    font-weight: 400;
+    line-height: 5px;
+    margin-left: 2px;
+    /* border-right: 2px solid #fff; */
+}
+
+.footer-col-1{
+    flex-basis: 16%;
+}
+.App-logo{
+    margin-top: 0px;
+}
+.App-logo img{
+    width: 249px;
+    height: 94px;
+}
+.footer-col-2, .footer-col-3,.footer-col-4,.footer-col-5{
+    flex: 1;
+    text-align: center;
+    flex-basis: 16%;
+}
+.footer-col-6{
+    flex-basis: 20%;
+}
+.footer form input{
+    width: 160px;
+    height: 29px;
+    border-radius: 3px solid;
+}
+.footer .btn{
+    width: 147px;
+    height: 21px;
+    float: right;
+    margin: 3px;
+}
+.footer h2{
+    font-size: 14px;
+    font-family: 'open sans';
+    font-weight: 700;
+    color: #fff;
+    float: right;
+}
+.copy-write{
+    background: #212374;
+    width: 1512px;
+    height: 36px;
+}
